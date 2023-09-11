@@ -1,0 +1,20 @@
+[
+        {
+            "id":1,
+            "name":"Personal Portfolio",
+            "about":"This portfolio is a collection of work samples that showcase my skills, achievements, and experience.",
+            "link":"https://github.com/rakeshkurma/Tic-Tac-Toe"
+        },
+        {
+            "id":1,
+            "name":"Tic Tac Toe",
+            "about":"It is a classic two‑player game played on a 3x3 grid,Based on wins winner will be declared ",
+            "link":"https://github.com/rakeshkurma/Tic-Tac-Toe"
+        },
+        {
+            "id":1,
+            "name":"Youtube Clone",
+            "about":"Developed a static version of YouTube using React.js and Material‑UI icons, including video playback and a familiar user interface",
+            "link":"https://github.com/rakeshkurma/Tic-Tac-Toe"
+        }
+]

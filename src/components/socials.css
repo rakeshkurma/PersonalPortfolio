@@ -1,0 +1,13 @@
+svg{
+    height: 2rem;
+    margin: 10px;
+}
+svg:hover{
+ fill: rgb(31, 128, 246);
+}
+
+.bottom{
+position: absolute;
+bottom: 100px;
+left: 45%;
+}

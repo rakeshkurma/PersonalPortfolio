@@ -1,0 +1,54 @@
+.container1 {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    background-color: rgb(255, 255, 255);
+    text-align: left;
+    color: rgb(0, 0, 0);
+    padding: 50px;
+}
+p{  
+margin: 0px;
+margin-bottom:0px;
+}
+
+.info{
+padding: 150px 0px 0px 100px;
+}
+.name {
+    font-size: 350%;
+    font-family: "Lora", sans-serif;
+    /* font-style: italic; */
+    padding-bottom: 20px;
+}
+
+.image {
+    width: 60%;
+    height: 100%;
+    border-radius: 3rem;
+    border: 3px black solid;
+}
+
+.photo{
+    display: flex;
+    justify-content: center;
+}
+
+.emoji{
+font-size: 40px;
+
+}
+img {
+    -webkit-mask-image: linear-gradient(45deg,#000 25%,rgba(0,0,0,.2) 50%,#000 55%);
+    mask-image: linear-gradient(45deg,#000 25%,rgba(0,0,0,.2) 50%,#000 55%);
+    -webkit-mask-size: 900%;
+    mask-size: 900%;
+    -webkit-mask-position: 0;
+    mask-position: 0;
+}
+
+img:hover {
+    transition: mask-position 2s ease,-webkit-mask-position 2s ease;
+    -webkit-mask-position: 120%;
+    mask-position: 120%;
+    opacity: 1;
+}
